@@ -1,0 +1,177 @@
+<html>
+    <style>
+    body{
+        background-image: linear-gradient(black,#222324);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20;
+    color: white;
+    text-align: left;
+    }
+    ul{
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+        cursor: pointer;
+    }
+    ul li { 
+        float:left;
+        width: 200px;
+        height: 60px;
+        line-height: 60px;
+        text-align: center;
+        font-size:10;
+        font-family: BB;
+        background-color:#242121;
+        opacity: .8;
+        margin-right: 2px;
+        
+        color:#a30000;
+    }
+    ul li:hover
+    {
+        background-color: grey;
+    }
+    ul li ul li {
+        display:none;
+    }
+    ul li:hover ul li {
+        display:block;
+    }
+    nav {
+        width: 100%;
+        height: 50px;
+    }
+    
+    @font-face{
+        font-family:BB;
+        src: url(BB.ttf);
+      
+    }
+    a{
+        color:#a30000;
+        text-decoration: none;
+    }
+    
+    a:hover, a:active, a:focus{
+        color:blue;    
+    }
+    
+  
+    ::-webkit-scrollbar {
+  width: 14px;
+}
+
+
+::-webkit-scrollbar-track {
+  background: black; 
+}
+ 
+
+::-webkit-scrollbar-thumb {
+  background: #a30000; 
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: red; 
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 99;
+  font-size: 25px;
+  border: none;
+  outline: none;
+  background-color: #a30000;
+  color: white;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 150px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+    </style>
+    <body>
+
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><b>↑</b></button>
+        <script>
+           
+            var mybutton = document.getElementById("myBtn");
+            
+            
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) 
+              {
+                mybutton.style.display = "block";
+              } 
+              else
+               {
+                mybutton.style.display = "none";
+              }
+            }
+            
+          
+            function topFunction() {
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
+            }
+            </script>
+            <nav>   
+                    <ul>
+                         <li> 
+                             <a href="butoane.html"><table><tr>
+                             <td>
+                            <img src="logo.png" width="50" height="50"></td>
+                          <td style="color:#a30000; font-size: 13; font-weight: bold; ">  Gamespirit</td>
+        
+                        </tr>
+                        </table class="logo">
+                         </a>       </li>
+                         <li onclick="location.href='Acasa.html';"><a href="Acasa.html"> Stiri </a></li>
+                         <li onclick="location.href='frameset2.html';"><a href="frameset2.html" style="font-size: 10; font-weight: bold;"> Istoria jocurilor </a> </li>
+                         <li> Genuri 
+                         <ul>
+                             <li onclick="location.href='Horror.html';"> <a href="Horror.html"> Survival Horror </a></li>
+                             <li onclick="location.href='Actiune.html';"> <a href="Actiune.html"> Action-Adventure </a></li>
+                             <li onclick="location.href='MMORPG.html';"> <a href="MMORPG.html"> MMO </a></li>
+                             <li onclick="location.href='RTS.html';"> <a href="RTS.html"> RTS </a></li>
+                             <li onclick="location.href='Platform.html';"> <a href="Platform.html"> Plaformer </a></li>
+                             <li onclick="location.href='Shooter.html';"> <a href="Shooter.html"> Shooter </a></li>
+                         </ul>
+                         </li>
+                         <li onclick="location.href='Suport.html';"><a href="Suport.html"> Suport </a></li>
+                         <li onclick="location.href='Platforme.html';"> <a href="Platforme.html">Recenzii</a></li>
+                        
+             
+             
+                    </ul>
+                 </nav> 
+          
+        
+         <p style="font-size: 25; color: #a30000; font-family: BB;"> Massive Multiplayer Online Game</p>
+         &nbsp;Un MMO sau MMOG (Massive Multiplayer Online Game) este un joc pentru calculator care este capabil sǎ suporte sute sau chiar mii de jucǎtori simultan și este jucat prin intermediul internetului.
+         <center><img src="wow.jpg" ></center>
+         <p style="font-size: 20; color: #a30000; font-family: BB;"> Particularitati</p>
+         &nbsp;Lumea virtualǎ în care se desfășoarǎ jocul este de obicei una mare și persistentǎ, majoritatea au propria unitate de timp. Diferenṭa dintre acest tip de jocuri și cel în reṭea este instanṭierea. În jocurile de reṭea instanṭierea unei lumi poate fi fǎcutǎ de oricine, iar fiecare instanṭă suportǎ doar un numǎr limitat de jucǎtori simultan (10-50). Jocurile MMO permit jucǎtorilor sǎ participe la competiții la scarǎ mare, sǎ concureze alǎturi de jucǎtori de diferite rase, vârste sau naționalitǎți. Majoritatea jocurilor MMO cer jucǎtorilor investirea unui timp îndelungat în joc, în crearea caracterelor și creșterea/dezvoltarea lor. Unele jocuri MMO cer o taxǎ lunarǎ sau doar cumpǎrarea jocului.
+         
+         &nbsp;Istoria jocurilor online din România începe cu În Debara. Este primul joc online multiplayer apărut la noi, cu peste 50.000 de jucători din întreaga lume! A câștigat premii pentru cel mai bun site de divertisment în 2004 și cel mai bun joc online în 2006.
+          <center><img src="starwars.jpg" ></center>
+          <p style="font-size: 20; color: #a30000; font-family: BB;"> Top jocuri de tip MMO</p>
+         <ol>
+             <li><a href=" World of Warcraft">World of Warcraft</a></li>
+             <li><a href=" Guild Wars 2">Guild Wars 2</a></li>
+             <li><a href=" Black Desert Online">Black Desert Online</a></li>
+             <li><a href=" Star Wars The Old Republic">Star Wars The Old Republic</a></li>
+             <li><a href=" Lord of The Rings Online">Lord of The Rings Online</a></li>
+             <li><a href=" Metin 2">Metin 2</a></li>
+         </ol>
+
+
+    </body>
+</html>

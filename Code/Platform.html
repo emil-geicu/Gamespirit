@@ -1,0 +1,172 @@
+<html>
+    <style>
+    body{
+        background-image: linear-gradient(black,#222324);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20;
+    color: white;
+    text-align: left;
+    }
+    ul{
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+        cursor: pointer;
+    }
+    ul li { 
+        float:left;
+        width: 200px;
+        height: 60px;
+        line-height: 60px;
+        text-align: center;
+        font-size:10;
+        font-family: BB;
+        background-color:#242121;
+        opacity: .8;
+        margin-right: 2px;
+        
+        color:#a30000;
+    }
+    ul li:hover
+    {
+        background-color: grey;
+    }
+    ul li ul li {
+        display:none;
+    }
+    ul li:hover ul li {
+        display:block;
+    }
+    nav {
+        width: 100%;
+        height: 50px;
+    }
+    
+    @font-face{
+        font-family:BB;
+        src: url(BB.ttf);
+      
+    }
+    a{
+        color:#a30000;
+        text-decoration: none;
+    }
+    
+    a:hover, a:active, a:focus{
+        color:blue;    
+    }
+    
+    ::-webkit-scrollbar {
+  width: 14px;
+}
+
+
+::-webkit-scrollbar-track {
+  background: black; 
+}
+ 
+
+::-webkit-scrollbar-thumb {
+  background: #a30000; 
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: red; 
+}
+    
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 99;
+  font-size: 25px;
+  border: none;
+  outline: none;
+  background-color: #a30000;
+  color: white;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 150px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+    </style>
+    <body>
+
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><b>↑</b></button>
+        <script>
+           
+            var mybutton = document.getElementById("myBtn");
+            
+            
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) 
+              {
+                mybutton.style.display = "block";
+              } 
+              else
+               {
+                mybutton.style.display = "none";
+              }
+            }
+            
+          
+            function topFunction() {
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
+            }
+            </script>
+            <nav>   
+                    <ul>
+                         <li> 
+                             <a href="butoane.html"><table><tr>
+                             <td>
+                            <img src="logo.png" width="50" height="50"></td>
+                          <td style="color:#a30000; font-size: 13; font-weight: bold; ">  Gamespirit</td>
+        
+                        </tr>
+                        </table class="logo">
+                         </a>       </li>
+                         <li onclick="location.href='Acasa.html';"><a href="Acasa.html"> Stiri </a></li>
+                         <li onclick="location.href='frameset2.html';"><a href="frameset2.html" style="font-size: 10; font-weight: bold;"> Istoria jocurilor </a> </li>
+                         <li> Genuri 
+                         <ul>
+                             <li onclick="location.href='Horror.html';"> <a href="Horror.html"> Survival Horror </a></li>
+                             <li onclick="location.href='Actiune.html';"> <a href="Actiune.html"> Action-Adventure </a></li>
+                             <li onclick="location.href='MMORPG.html';"> <a href="MMORPG.html"> MMO </a></li>
+                             <li onclick="location.href='RTS.html';"> <a href="RTS.html"> RTS </a></li>
+                             <li onclick="location.href='Platform.html';"> <a href="Platform.html"> Plaformer </a></li>
+                             <li onclick="location.href='Shooter.html';"> <a href="Shooter.html"> Shooter </a></li>
+                         </ul>
+                         </li>
+                         <li onclick="location.href='Suport.html';"><a href="Suport.html"> Suport </a></li>
+                         <li onclick="location.href='Platforme.html';"> <a href="Platforme.html">Recenzii</a></li>
+                        
+             
+             
+                    </ul>
+                 </nav> 
+          
+         <p style="font-size: 25; color: #a30000; font-family: BB;"> Platformer</p>
+         &nbsp;Un platformer (sau joc de platformă) este un joc video în care personajul controlat de jucător sare pe platforme suspendate și/sau peste obstacole pentru a avansa în joc.
+         <center><img src="pop.jpg"></center>
+         &nbsp;La un moment dat, jocul de platformă era cel mai popular gen de joc video. În perioada de vârf a popularității lor, se estimează că între un sfert și o treime din jocurile de consolă erau de acest gen. Nici un alt gen nu a reușit să atingă o pondere la fel de mare. Din 2006, genul a devenit mai puțin popular, cu doar 2% din jocuri fiind de acest gen, în comparație cu 15% în anul 1998.
+         <center><img src="mario.jpg"></center>
+         <p style="font-size: 20; color: #a30000; font-family: BB;"> Cele mai cunoscute Platformere</p>
+<ol>
+<li><a href="Mario">Mario</a></li>
+<li><a href="Sonic">Sonic</a></li>
+<li><a href="Metroid">Metroid</a></li>
+<li><a href="Contra">Contra</a></li>
+<li><a href="Jazz Jackrabbit 2">Jazz Jackrabbit 2</a></li>
+<li><a href="Crash Bandicoot">Crash Bandicoot</a></li>
+</ol>
+
+    </body>
+</html>

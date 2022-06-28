@@ -1,0 +1,173 @@
+<html>
+    <style>
+    body{
+        background-image: linear-gradient(black,#222324);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20;
+    color: white;
+    text-align: left;
+    }
+    ul{
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+        cursor: pointer;
+    }
+    ul li { 
+        float:left;
+        width: 200px;
+        height: 60px;
+        line-height: 60px;
+        text-align: center;
+        font-size:10;
+        font-family: BB;
+        background-color:#242121;
+        opacity: .8;
+        margin-right: 2px;
+        
+        color:#a30000;
+    }
+    ul li:hover
+    {
+        background-color: grey;
+    }
+    ul li ul li {
+        display:none;
+    }
+    ul li:hover ul li {
+        display:block;
+    }
+    nav {
+        width: 100%;
+        height: 50px;
+    }
+    
+    @font-face{
+        font-family:BB;
+        src: url(BB.ttf);
+      
+    }
+    a{
+        color:#a30000;
+        text-decoration: none;
+    }
+    
+    a:hover, a:active, a:focus{
+        color:blue;    
+    }
+    
+  
+    ::-webkit-scrollbar {
+  width: 14px;
+}
+
+
+::-webkit-scrollbar-track {
+  background: black; 
+}
+ 
+
+::-webkit-scrollbar-thumb {
+  background: #a30000; 
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: red; 
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 99;
+  font-size: 25px;
+  border: none;
+  outline: none;
+  background-color: #a30000;
+  color: white;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 150px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+    </style>
+    <body>
+
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><b>↑</b></button>
+        <script>
+           
+            var mybutton = document.getElementById("myBtn");
+            
+            
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) 
+              {
+                mybutton.style.display = "block";
+              } 
+              else
+               {
+                mybutton.style.display = "none";
+              }
+            }
+            
+          
+            function topFunction() {
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
+            }
+            </script>
+            <nav>   
+                    <ul>
+                         <li> 
+                             <a href="butoane.html"><table><tr>
+                             <td>
+                            <img src="logo.png" width="50" height="50"></td>
+                          <td style="color:#a30000; font-size: 13; font-weight: bold; ">  Gamespirit</td>
+        
+                        </tr>
+                        </table class="logo">
+                         </a>       </li>
+                         <li onclick="location.href='Acasa.html';"><a href="Acasa.html"> Stiri </a></li>
+                 <li onclick="location.href='frameset2.html';"><a href="frameset2.html" style="font-size: 10; font-weight: bold;"> Istoria jocurilor </a> </li>
+                 <li> Genuri 
+                 <ul>
+                     <li onclick="location.href='Horror.html';"> <a href="Horror.html"> Survival Horror </a></li>
+                     <li onclick="location.href='Actiune.html';"> <a href="Actiune.html"> Action-Adventure </a></li>
+                     <li onclick="location.href='MMORPG.html';"> <a href="MMORPG.html"> MMO </a></li>
+                     <li onclick="location.href='RTS.html';"> <a href="RTS.html"> RTS </a></li>
+                     <li onclick="location.href='Platform.html';"> <a href="Platform.html"> Plaformer </a></li>
+                     <li onclick="location.href='Shooter.html';"> <a href="Shooter.html"> Shooter </a></li>
+                 </ul>
+                 </li>
+                 <li onclick="location.href='Suport.html';"><a href="Suport.html"> Suport </a></li>
+                 <li onclick="location.href='Platforme.html';"> <a href="Platforme.html">Recenzii</a></li>
+                
+     
+             
+             
+                    </ul>
+                 </nav> 
+          
+         <p style="font-size: 16; color: #a30000; font-family: BB;"> CS:GO a inregistrat un nou record de jucatori in urma ultimei campanii</p>
+        <center><img src="csgo.jpg" width="500" height="270" ></center>
+         &nbsp;CS:GO a primit recent o noua operatiune, Shattered Web, care a introdus harti noi, agenti deblocabili, un battle pass si multe alte noutati in jocul FPS multiplayer al Valve. Si se pare ca nu doar o mica parte din jucatori se bucura de aceasta, astfel jocul a atins cel mai mare numar de jucatori activi inregistrat vreodata.
+<br>
+         &nbsp; Conform spuselor The Loadout, pagina Steam Charts de CS:GO arata ca in Noiembrie 2019 jocul a vazut un numar mediu de jucatori undeva in jurul a 426.080 – cel mai mare inregistrat de la lansarea jocului si la o diferenta sesizabila. Cel mai aproapiat punct, din aceasta perspectiva, este August 2019 cand jocul a inregistrat 415k utilizatori activi in medie, urmat de Septembrie, Octombrie si Ianuarie 2019, cat si de luna Februarie 2017, toate avand o medie de peste 400K. Deci vorbim totusi de un numar impresionant inregistrat de acest joc.
+         <br>
+         &nbsp; Noul record a fost stabilit in urma lansarii operatiunii Shattered Web, care a fost lansata pe data de 18 Noiembrie. Noua operatiune a introdus un sistem de progresie similar cu un battle pass, care iti permite sa aduni stelute prin intermediul unor misiuni saptamanale si sa deblochezi elemente cosmetice, cat si un skin special Master Agent pentru jucatorii care ajung la 100 de stele.
+         
+         <br>
+         <center><img src="csgo2.jpg" width="500" height="270" ></center>
+         &nbsp; De asemenea, include un sistem de premiere care iti permite sa-ti verifici reusitele legate de aceasta operatiune si harti precum Lunacy, Jungle si Studio.
+         <br>
+         &nbsp;Noiembrie a mai insemnat si stabilirea unui nou record de jucatori activi in acelasi timp, cu peste 758k de jucatori fiind conectati la serverele jocului concomitent. Acest numar este mai mare si decat cel inregistrat in Decembrie 2018 (peste 746k) odata cu introducerea in CS:GO a modului de battle royale, Danger Zone. Se pare ca jocul a prins din nou viata si chiar daca nu se mai bucura de succesul de acum cativa ani, reuseste sa fie un succes pentru Valve, atat din perspectiva numarului de jucatori, cat si a profitului generat.
+
+
+    </body>
+</html>

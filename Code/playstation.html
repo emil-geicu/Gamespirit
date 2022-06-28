@@ -1,0 +1,168 @@
+<html>
+    <style>
+    body{
+        background-image: linear-gradient(black,#222324);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20;
+    color: white;
+    text-align: left;
+    }
+    ul{
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+        cursor: pointer;
+    }
+    ul li { 
+        float:left;
+        width: 200px;
+        height: 60px;
+        line-height: 60px;
+        text-align: center;
+        font-size:10;
+        font-family: BB;
+        background-color:#242121;
+        opacity: .8;
+        margin-right: 2px;
+        
+        color:#a30000;
+    }
+    ul li:hover
+    {
+        background-color: grey;
+    }
+    ul li ul li {
+        display:none;
+    }
+    ul li:hover ul li {
+        display:block;
+    }
+    nav {
+        width: 100%;
+        height: 50px;
+    }
+    
+    @font-face{
+        font-family:BB;
+        src: url(BB.ttf);
+      
+    }
+    a{
+        color:#a30000;
+        text-decoration: none;
+    }
+    
+    a:hover, a:active, a:focus{
+        color:blue;    
+    }
+    
+  
+    ::-webkit-scrollbar {
+  width: 14px;
+}
+
+
+::-webkit-scrollbar-track {
+  background: black; 
+}
+ 
+
+::-webkit-scrollbar-thumb {
+  background: #a30000; 
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: red; 
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 99;
+  font-size: 25px;
+  border: none;
+  outline: none;
+  background-color: #a30000;
+  color: white;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 150px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+    </style>
+    <body>
+
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><b>↑</b></button>
+        <script>
+           
+            var mybutton = document.getElementById("myBtn");
+            
+            
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) 
+              {
+                mybutton.style.display = "block";
+              } 
+              else
+               {
+                mybutton.style.display = "none";
+              }
+            }
+            
+          
+            function topFunction() {
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
+            }
+            </script>
+    
+            <nav>   
+                    <ul>
+                         <li> 
+                             <a href="butoane.html"><table><tr>
+                             <td>
+                            <img src="logo.png" width="50" height="50"></td>
+                          <td style="color:#a30000; font-size: 13; font-weight: bold; ">  Gamespirit</td>
+        
+                        </tr>
+                        </table class="logo">
+                         </a>       </li>
+                         <li onclick="location.href='Acasa.html';"><a href="Acasa.html"> Stiri </a></li>
+                         <li onclick="location.href='frameset2.html';"><a href="frameset2.html" style="font-size: 10; font-weight: bold;"> Istoria jocurilor </a> </li>
+                         <li> Genuri 
+                         <ul>
+                             <li onclick="location.href='Horror.html';"> <a href="Horror.html"> Survival Horror </a></li>
+                             <li onclick="location.href='Actiune.html';"> <a href="Actiune.html"> Action-Adventure </a></li>
+                             <li onclick="location.href='MMORPG.html';"> <a href="MMORPG.html"> MMO </a></li>
+                             <li onclick="location.href='RTS.html';"> <a href="RTS.html"> RTS </a></li>
+                             <li onclick="location.href='Platform.html';"> <a href="Platform.html"> Plaformer </a></li>
+                             <li onclick="location.href='Shooter.html';"> <a href="Shooter.html"> Shooter </a></li>
+                         </ul>
+                         </li>
+                         <li onclick="location.href='Suport.html';"><a href="Suport.html"> Suport </a></li>
+                         <li onclick="location.href='Platforme.html';"> <a href="Platforme.html">Recenzii</a></li>
+                        
+             
+                    </ul>
+                 </nav> 
+          
+         <p style="font-size: 25; color: #a30000; font-family: BB;"> Playstation a implinit 25 ani</p>
+        <center> <img src="playstation.jpg" width="500" height="300"></center>
+        &nbsp; Sony se află în sărbătoare zilele acestea, pentru că marea sa creație din domeniul jocurilor a împlinit un sfert de secol.
+
+        &nbsp; Consola Playstation a fost lansată în ziua de 3 decembrie 1994, bucurându-se de 100 de mii de unități vândute în Japonia în prima zi. Apoi, pe parcursul anilor, a reușit să vândă mai bine de 100 de milioane de exemplare, fiind scos din producție abia în anul 2006.
+         <br>
+        &nbsp; Playstation a izbutit să se vândă atât de bine atât din cauza hardware-ului destul de bun de care dispunea, dar mai ales din pricina jocurilor de legendă. Titluri precum Final Fantasy 7, Resident Evil, Silent Hill, Metal Gear Solid, Gran Turismo, Tomb Raider, Crash Bandicoot, și multe, multe altele au ajutat la elevarea acestei console la un nivel cu mult peste ce s-a văzut de la semenii săi din anii trecuți.
+         
+        &nbsp;Apoi a venit Playstation 2 și s-a vândut și mai bine, iar de atunci totul a fost la vale. Bine, nu chiar la vale, dar nici la n-a avut parte de același nivel de dominare totală. Deși în generația curentă nu i-a mers tocmai rău.
+
+
+    </body>
+</html>

@@ -1,0 +1,171 @@
+<html>
+    <style>
+    body{
+        background-image: linear-gradient(black,#222324);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20;
+    color: white;
+    text-align: left;
+    }
+    ul{
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+        cursor: pointer;
+    }
+    ul li { 
+        float:left;
+        width: 200px;
+        height: 60px;
+        line-height: 60px;
+        text-align: center;
+        font-size:10;
+        font-family: BB;
+        background-color:#242121;
+        opacity: .8;
+        margin-right: 2px;
+        
+        color:#a30000;
+    }
+    ul li:hover
+    {
+        background-color: grey;
+    }
+    ul li ul li {
+        display:none;
+    }
+    ul li:hover ul li {
+        display:block;
+    }
+    nav {
+        width: 100%;
+        height: 50px;
+    }
+    
+    @font-face{
+        font-family:BB;
+        src: url(BB.ttf);
+      
+    }
+    a{
+        color:#a30000;
+        text-decoration: none;
+    }
+    
+    a:hover, a:active, a:focus{
+        color:blue;    
+    }
+    
+  
+    ::-webkit-scrollbar {
+  width: 14px;
+}
+
+
+::-webkit-scrollbar-track {
+  background: black; 
+}
+ 
+
+::-webkit-scrollbar-thumb {
+  background: #a30000; 
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: red; 
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 99;
+  font-size: 25px;
+  border: none;
+  outline: none;
+  background-color: #a30000;
+  color: white;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 150px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+    </style>
+    <body>
+
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><b>↑</b></button>
+        <script>
+           
+            var mybutton = document.getElementById("myBtn");
+            
+            
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) 
+              {
+                mybutton.style.display = "block";
+              } 
+              else
+               {
+                mybutton.style.display = "none";
+              }
+            }
+            
+          
+            function topFunction() {
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
+            }
+            </script>
+            <nav>   
+                    <ul>
+                         <li> 
+                             <a href="butoane.html"><table><tr>
+                             <td>
+                            <img src="logo.png" width="50" height="50"></td>
+                          <td style="color:#a30000; font-size: 13; font-weight: bold; ">  Gamespirit</td>
+        
+                        </tr>
+                        </table class="logo">
+                         </a>       </li>
+                         <li onclick="location.href='Acasa.html';"><a href="Acasa.html"> Stiri </a></li>
+                         <li onclick="location.href='frameset2.html';"><a href="frameset2.html" style="font-size: 10; font-weight: bold;"> Istoria jocurilor </a> </li>
+                         <li> Genuri 
+                         <ul>
+                             <li onclick="location.href='Horror.html';"> <a href="Horror.html"> Survival Horror </a></li>
+                             <li onclick="location.href='Actiune.html';"> <a href="Actiune.html"> Action-Adventure </a></li>
+                             <li onclick="location.href='MMORPG.html';"> <a href="MMORPG.html"> MMO </a></li>
+                             <li onclick="location.href='RTS.html';"> <a href="RTS.html"> RTS </a></li>
+                             <li onclick="location.href='Platform.html';"> <a href="Platform.html"> Plaformer </a></li>
+                             <li onclick="location.href='Shooter.html';"> <a href="Shooter.html"> Shooter </a></li>
+                         </ul>
+                         </li>
+                         <li onclick="location.href='Suport.html';"><a href="Suport.html"> Suport </a></li>
+                         <li onclick="location.href='Platforme.html';"> <a href="Platforme.html">Recenzii</a></li>
+                        
+             
+             
+                    </ul>
+                 </nav> 
+          
+        
+         <p style="font-size: 20; color: #a30000; font-family: BB;"> Call of Duty Modern Warfare Season One a inceput in forta</p>
+         &nbsp;Cel mai mare update al lui Call of Duty Modern Warfare a fost introdus aseara si a dat drumul primului sezon al jocului. Odata cu Season One, vine si noul battle pass cu doua arme noi, patru harti de multiplayer si un trio de misiuni Spec-Ops.
+   
+         &nbsp;Hartile Atrium si Cargo sunt disponibile pentru modul Gunfight, iar daca te joci Ground War vei avea sansa sa explorezi noua harta, Port. Crash a revenit de asemenea cu cateva schimbari pentru a face harta mai realista, alaturi de o noua linie narativa in care Coalition si Allegiance se lupta pentru o baza Al-Qatala localizata in centrul hartii. Vacat si Shipment vor vedea o revenire la serie si vor fi disponbile in timpul acestui sezon.
+         <center><img src="cod.jpg" width="500" height="300"></center>
+         &nbsp;Reinforce, primul dintre cele trei moduri noi de joc este deja disponibil, oferind jucatorilor o singura viata in care sa captureze trei steaguri, fiecare dintre acestea permitand echipei sa primeasca respawn. Alt mod este Infected, unde va trebui sa lupti impotriva unei echipe in continua crestere de jucatori infectati si nu in ultimul rand, avem Gunfight OSP care te arunca intr-o lupta Gunfight fara arme sau echipament, acestea venind mai tarziu. Infinity Ward a mai spus si ca ne putem astepta la si mai multe moduri de joc de-a lungul acestui sezon.
+         
+         &nbsp;De asemenea, si modul Spec Ops vede doua aditii: Just Reward si Strongbox au fost introduse odata cu noul update, alaturi de trei operatiuni clasice. Operatiunile normale vor trimite jucatorii in lupta cu scopul de a lichida un finantator terorist; Classic Ops in schimb, te va arunca intr-o lupta impotriva Generalului Barkov si va trebui sa furi informatii, sa cuceresti o baza aeriana si sa-l opresti pe Barkov care vrea sa arunce in aer un intreg oras.
+         
+         &nbsp;Battle Pass-ul este in mare parte limitat celor care il cumpara. Sunt insa si cateva nivele gratuite care recompenseaza jucatorii cu elemente precum arma de asalt RAM-7 si mitraliera Holger-26. Battle Pass-ul complet contine 100 de nivele si include un nou operator, Mara.
+         
+         &nbsp;Challenge-urile Officer Rank ale primului sezon au inceput si poti incepe calatoria catre nivelul 155 prin completarea noilor obiective de sezon. Rank-ul de ofiter este diferit fata de rank-ul normal, dar iti ofera si recompense noi.
+
+    </body>
+</html>

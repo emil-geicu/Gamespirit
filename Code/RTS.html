@@ -1,0 +1,169 @@
+<html>
+    <style>
+    body{
+        background-image: linear-gradient(black,#222324);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20;
+    color: white;
+    text-align: left;
+    }
+    ul{
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+        cursor: pointer;
+    }
+    ul li { 
+        float:left;
+        width: 200px;
+        height: 60px;
+        line-height: 60px;
+        text-align: center;
+        font-size:10;
+        font-family: BB;
+        background-color:#242121;
+        opacity: .8;
+        margin-right: 2px;
+        
+        color:#a30000;
+    }
+    ul li:hover
+    {
+        background-color: grey;
+    }
+    ul li ul li {
+        display:none;
+    }
+    ul li:hover ul li {
+        display:block;
+    }
+    nav {
+        width: 100%;
+        height: 50px;
+    }
+    
+    @font-face{
+        font-family:BB;
+        src: url(BB.ttf);
+      
+    }
+    a{
+        color:#a30000;
+        text-decoration: none;
+    }
+    
+    a:hover, a:active, a:focus{
+        color:blue;    
+    }
+    
+  
+    ::-webkit-scrollbar {
+  width: 14px;
+}
+
+
+::-webkit-scrollbar-track {
+  background: black; 
+}
+ 
+
+::-webkit-scrollbar-thumb {
+  background: #a30000; 
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: red; 
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 99;
+  font-size: 25px;
+  border: none;
+  outline: none;
+  background-color: #a30000;
+  color: white;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 150px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+    </style>
+    <body>
+
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><b>↑</b></button>
+        <script>
+           
+            var mybutton = document.getElementById("myBtn");
+            
+            
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) 
+              {
+                mybutton.style.display = "block";
+              } 
+              else
+               {
+                mybutton.style.display = "none";
+              }
+            }
+            
+          
+            function topFunction() {
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
+            }
+            </script>
+    
+            <nav>   
+                    <ul>
+                         <li> 
+                             <a href="butoane.html"><table><tr>
+                             <td>
+                            <img src="logo.png" width="50" height="50"></td>
+                          <td style="color:#a30000; font-size: 13; font-weight: bold; ">  Gamespirit</td>
+        
+                        </tr>
+                        </table class="logo">
+                         </a>       </li>
+                         <li onclick="location.href='Acasa.html';"><a href="Acasa.html"> Stiri </a></li>
+                         <li onclick="location.href='frameset2.html';"><a href="frameset2.html" style="font-size: 10; font-weight: bold;"> Istoria jocurilor </a> </li>
+                         <li> Genuri 
+                         <ul>
+                             <li onclick="location.href='Horror.html';"> <a href="Horror.html"> Survival Horror </a></li>
+                             <li onclick="location.href='Actiune.html';"> <a href="Actiune.html"> Action-Adventure </a></li>
+                             <li onclick="location.href='MMORPG.html';"> <a href="MMORPG.html"> MMO </a></li>
+                             <li onclick="location.href='RTS.html';"> <a href="RTS.html"> RTS </a></li>
+                             <li onclick="location.href='Platform.html';"> <a href="Platform.html"> Plaformer </a></li>
+                             <li onclick="location.href='Shooter.html';"> <a href="Shooter.html"> Shooter </a></li>
+                         </ul>
+                         </li>
+                         <li onclick="location.href='Suport.html';"><a href="Suport.html"> Suport </a></li>
+                         <li onclick="location.href='Platforme.html';"> <a href="Platforme.html">Recenzii</a></li>
+                        
+             
+             
+             
+                    </ul>
+                 </nav> 
+          
+         <p style="font-size: 25; color: #a30000; font-family: BB;"> Real-Time-Strategy</p>
+         &nbsp;Strategie în timp real este un gen de jocuri video caracterizat prin jocuri de război care au loc în timp real, unde adunarea de resurse, construirea de baze, dezvoltarea tehnologiei și control direct asupra unităților individuale sunt componente cheie.
+        <center> <img src="warcraft.jpg" width="500" height="200"></center>
+         &nbsp;Jocurile de strategie în timp real nu implică ture ca jocurile pe ture. În schimb, jocul progresează în "timp real"; este un joc continuu spre deosebire de cele pe ture, și toți jucătorii pot da ordine în orice moment, în timp ce cuvântul "strategie" face referință la planificarea unui război la nivel înalt ca armate, campanii, și războaie întregi, în jocuri în timp real se pot da ordine unor unități sau persoane individuale. Părți integrale ale gameplay-ului sunt de asemenea aspectele legate de economie și producție, și cu toate că confruntările militare joacă un rol important, ele sunt foarte stilizate și nu pun accent pe simularea războaielor reale.
+
+         <p style="font-size: 20; color: #a30000; font-family: BB;"> 1983 - 1992: începuturile</p>
+        &nbsp; În Regatul Unit, genul a început cu Stonkers de John Gibson, publicat în 1983 de Imagine Software prentru ZX Spectrum, și Nether Earth publicat pe ZX Spectrum în 1987. În America de Nord, primul joc clasificat retrospectiv drept strategie în timp real este The Ancient Art of War(1984), proiectat de Evryware alor Dave și Barry Murry, urmat de The Ancient Art of Warfare at Sea ]n 1987. Unii scriitori consideră Utopia de Don Daglow drept primul joc de strategie în timp real.
+        <center> <img src="starcraft.jpg" width="500" height="200"></center>
+        &nbsp;Nici unul dintre aceste titluri nu ar fi recunoscut drept strategie în timp real. Totuși, Herzog Zwei pentru Sega Genesis din 1989 și Battle Master pentru Amiga și Atari ST din 1990 sunt probabil cele mai timpurii exemple de jocuri în timp real făcute bine. Strategie în timp real a început să fie recnoscut odată cu scoaterea pe piață a Dune II de la Westwood Studios în 1992. Dune II a fost și primul joc să creeze un format pentru jocurile în timp real care este folosit și în ziua de azi, ca folosirea mouse-ului pentru mișcarea trupelor, și strângerea de resurse.
+
+    </body>
+</html>
